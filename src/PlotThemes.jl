@@ -56,6 +56,7 @@ include("lime.jl")
 include("orange.jl")
 include("juno.jl")
 include("julia.jl")
+include("tuwien.jl")
 
 function __init__()
     # need to do this here so PlotUtils picks up the change
