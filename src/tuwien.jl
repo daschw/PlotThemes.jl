@@ -6,7 +6,7 @@ julia_palette = [
     myblue
 ]
 
-_themes[:julia] = PlotTheme(
+_themes[:tuwien] = PlotTheme(
     colorant"white",
     colorant"white",
     mygray,
