@@ -12,5 +12,5 @@ _themes[:tuwien] = PlotTheme(
     mygray,
     mygray,
     expand_palette(colorant"white", julia_palette; lchoices=linspace(57,57,1), cchoices=linspace(100,100,1)),
-    [mygray myblue]
+    [mygray, myblue]
 )
