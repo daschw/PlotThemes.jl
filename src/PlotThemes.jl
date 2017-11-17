@@ -48,6 +48,7 @@ function add_theme(s::Symbol, thm::PlotTheme)
     _themes[s] = thm
 end
 
+include("colorblind.jl")
 include("dark.jl")
 include("ggplot2.jl")
 include("solarized.jl")
