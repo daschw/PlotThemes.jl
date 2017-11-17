@@ -15,7 +15,6 @@ _themes[:colorblind] = PlotTheme(
     colorant"white",
     colorant"black",
     colorant"black",
-    # colorblind_palette,
     expand_palette(colorant"white", colorblind_palette; lchoices=linspace(57,57,1), cchoices=linspace(100,100,1)),
     colorblind_palette[[1, 2]]
 )
